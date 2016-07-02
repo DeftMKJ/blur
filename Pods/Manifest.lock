@@ -1,0 +1,29 @@
+PODS:
+  - HMSegmentedControl (1.5.2)
+  - Masonry (1.0.0)
+  - MXPagerView (0.1.2)
+  - MXParallaxHeader (0.4.3)
+  - MXSegmentedPager (3.0.4):
+    - HMSegmentedControl (~> 1.5.2)
+    - MXPagerView (~> 0.1.2)
+    - MXParallaxHeader (~> 0.4.3)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+
+DEPENDENCIES:
+  - Masonry
+  - MXSegmentedPager
+  - SDWebImage
+
+SPEC CHECKSUMS:
+  HMSegmentedControl: 83b9686022d2176fb6457d2bdb61e5d6393fed7d
+  Masonry: b529bb169217897b6354d4b56b1fada6d475b13d
+  MXPagerView: b0cc1695ff8470a1bb1628e25e8878eb94606a60
+  MXParallaxHeader: 96d9e7c392a26b29b97ddc34bff904a9c0baef27
+  MXSegmentedPager: 48a6129c823a3a5c6f5809c43463dbdf8351f528
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+
+PODFILE CHECKSUM: 68967975695812ef6477eca125065832cfbb717a
+
+COCOAPODS: 1.0.0
