@@ -19,6 +19,13 @@
 {
     [super viewWillAppear:animated];
     self.navigationController.navigationBar.hidden = NO;
+    
+    
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 64, 100, 30)];
+    label.font = [UIFont systemFontOfSize:15];
+    label.textColor = [UIColor redColor];
+    label.text = @"测试用的数据";
+    [self.view addSubview:label];
 }
 
 - (void)viewDidLoad {
